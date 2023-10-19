@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(68, 68, 68);
+  /* min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.cell {
+  font-size: calc(10px + 4vmin);
+  width: 100px;
+  height: 100px;
+  background-color:rgb(98, 0, 255);
+  box-shadow: 5px 10px 10px; 
+  /* margin: 30px; */
+  border-radius: 7px;
+  border-color: black;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+.cell:hover {
+  background-color:rgb(70, 0, 184);
+}
+#board {
+  z-index: 1;
+  position: absolute;
+  border-spacing: 10px;
+}
+#fullscreen-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.753);
+  position: fixed;
+  z-index: 2;
+}
+#gameover {
+  position: absolute;
+  z-index: 3;
+  color: rgb(255, 113, 113);
+  background-color:rgb(98, 0, 255);
+  box-shadow: 1px 10px 50px  black;
+  text-shadow: 1px 5px 10px black;
+  padding: 50px;
+  border-radius: 10px;
+}
+#restartbtn {
+  color: aqua;
+  font-size: large;
+  background-color: rgba(0, 0, 0, 0.548);
+  border-color: none;
+  border-radius: 5px;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+#restartbtn:hover {
+  background-color: rgba(0, 0, 0, 0.836);
+}
+.cell:disabled {
+  
+  color:black;
+  /* Additional styles as needed */
+}
+#gamecomplete {
+  position: absolute;
+  z-index: 3;
+  color: rgb(113, 227, 255);
+  background-color:rgb(98, 0, 255);
+  box-shadow: 1px 10px 50px  black;
+  text-shadow: 1px 5px 10px black;
+  padding: 50px;
+  border-radius: 10px;
+}

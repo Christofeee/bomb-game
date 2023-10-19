@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bomb-game/static/css/main.007a5a4d.css",
+    "main.js": "/bomb-game/static/js/main.cbd08a6e.js",
+    "index.html": "/bomb-game/index.html",
+    "main.007a5a4d.css.map": "/bomb-game/static/css/main.007a5a4d.css.map",
+    "main.cbd08a6e.js.map": "/bomb-game/static/js/main.cbd08a6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.007a5a4d.css",
+    "static/js/main.cbd08a6e.js"
+  ]
+}

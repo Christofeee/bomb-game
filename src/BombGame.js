@@ -121,7 +121,11 @@ function BombGame()
     return (
         
         <div className="App">
-            <table id="board">{board}</table>   {/* game board */}
+            
+            <table id="board">  {/* game board */}
+                <tr><th colSpan={5}><h1 class="header">Bomb Game</h1></th></tr>
+                {board}
+            </table>
             <div id="fullscreen-bg" style={{display:"none"}}></div> {/*darken background*/}
             <div id="gameover" style={{display:"none"}}>    {/*game over box*/}
                 <h1 >Game Over</h1>

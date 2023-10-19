@@ -30,7 +30,7 @@ code {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #343028;
   
   display: flex;
   flex-direction: column;
@@ -42,6 +42,16 @@ code {
 
 .App-link {
   color: #61dafb;
+}
+.header{
+  font-size: 50px;
+  color: aqua;
+  text-shadow: 1px 5px 100px #61dafb;
+  background-color: rgba(0, 0, 0, 0.74);
+  border: 2px rgb(98, 0, 255) solid;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 5px 40px black;
 }
 
 .cell {
